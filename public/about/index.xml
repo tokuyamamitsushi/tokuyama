@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>運営者について on 楽楽販売の開発エンジニアを育成中｜開発で役立つ技術を配信</title>
+    <link>https://www.tokuyama.io/about/</link>
+    <description>Recent content in 運営者について on 楽楽販売の開発エンジニアを育成中｜開発で役立つ技術を配信</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 13 Jun 2020 13:49:23 +0600</lastBuildDate>
+    
+	<atom:link href="https://www.tokuyama.io/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

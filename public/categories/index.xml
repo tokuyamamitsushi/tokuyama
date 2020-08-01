@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 楽楽販売の開発エンジニアを育成中｜開発で役立つ技術を配信</title>
+    <link>https://www.tokuyama.io/categories/</link>
+    <description>Recent content in Categories on 楽楽販売の開発エンジニアを育成中｜開発で役立つ技術を配信</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 24 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.tokuyama.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>プログラム</title>
+      <link>https://www.tokuyama.io/categories/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/</link>
+      <pubDate>Fri, 24 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.tokuyama.io/categories/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>書評</title>
+      <link>https://www.tokuyama.io/categories/%E6%9B%B8%E8%A9%95/</link>
+      <pubDate>Fri, 24 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.tokuyama.io/categories/%E6%9B%B8%E8%A9%95/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>神奈川県</title>
+      <link>https://www.tokuyama.io/categories/%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C/</link>
+      <pubDate>Sun, 05 Jul 2020 13:50:55 +0000</pubDate>
+      
+      <guid>https://www.tokuyama.io/categories/%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>東京都</title>
+      <link>https://www.tokuyama.io/categories/%E6%9D%B1%E4%BA%AC%E9%83%BD/</link>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.tokuyama.io/categories/%E6%9D%B1%E4%BA%AC%E9%83%BD/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ドイツ</title>
+      <link>https://www.tokuyama.io/categories/%E3%83%89%E3%82%A4%E3%83%84/</link>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.tokuyama.io/categories/%E3%83%89%E3%82%A4%E3%83%84/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>兵庫県</title>
+      <link>https://www.tokuyama.io/categories/%E5%85%B5%E5%BA%AB%E7%9C%8C/</link>
+      <pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.tokuyama.io/categories/%E5%85%B5%E5%BA%AB%E7%9C%8C/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>クラウドサービス on 楽楽販売の開発エンジニアを育成中｜開発で役立つ技術を配信</title>
+    <link>https://www.tokuyama.io/tags/%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/</link>
+    <description>Recent content in クラウドサービス on 楽楽販売の開発エンジニアを育成中｜開発で役立つ技術を配信</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 24 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.tokuyama.io/tags/%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>書評：SIerの教科書（クラウド次回のSEの常識）</title>
+      <link>https://www.tokuyama.io/blog/20200724-002/</link>
+      <pubDate>Fri, 24 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.tokuyama.io/blog/20200724-002/</guid>
+      <description>SIerの教科書 クラウド時代のSEの常識 これからのIT業界（情報サービス産業）のビジネスモデルとその実例がよくわかる この書籍を読んで、自分なりに、インプットしておきたい内容について引用します。
+ システムを作らずに、システムを作る これからのSIerは、「極力システムを作らずに、システムを作る」ことを目指します。
+ 世の中には、良いサービスは、いっぱいあるので、わざわざ自前で開発しなくともよい。
+ システムをビジネスチャンスを広げる手段にしたい ユーザ企業を取り巻く業界の状況を把握し、ユーザ企業の仕事の改善や、業績の向上をもたらすシステムを考え、作り、提案するというやり&amp;gt;方に変える必要があります。</description>
+    </item>
+    
+  </channel>
+</rss>

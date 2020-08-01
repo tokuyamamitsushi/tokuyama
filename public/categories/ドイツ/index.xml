@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ドイツ on 楽楽販売の開発エンジニアを育成中｜開発で役立つ技術を配信</title>
+    <link>https://www.tokuyama.io/categories/%E3%83%89%E3%82%A4%E3%83%84/</link>
+    <description>Recent content in ドイツ on 楽楽販売の開発エンジニアを育成中｜開発で役立つ技術を配信</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 11 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.tokuyama.io/categories/%E3%83%89%E3%82%A4%E3%83%84/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ドイツ旅行の定番は、ロマンチック街道</title>
+      <link>https://www.tokuyama.io/blog/20200611-001/</link>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.tokuyama.io/blog/20200611-001/</guid>
+      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 コンテンツの追加方法 ここにコンテンツを追加する</description>
+    </item>
+    
+    <item>
+      <title>ドイツ旅行を満喫する理想的な日数</title>
+      <link>https://www.tokuyama.io/blog/20200610-001/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.tokuyama.io/blog/20200610-001/</guid>
+      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 コンテンツの追加方法 ここにコンテンツを追加する</description>
+    </item>
+    
+  </channel>
+</rss>

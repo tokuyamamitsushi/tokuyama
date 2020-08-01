@@ -1,0 +1,187 @@
+{{ define "main" }}
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        {{ range .Params.Categories }}
+        <a href="{{ "categories/" | relLangURL }}{{ . | urlize | lower }}"
+          class="text-primary">{{ . | title | humanize }}</a>
+        {{ end }}
+        <h2>{{ .Title | markdownify }}</h2>
+        <div class="mb-3 post-meta">
+          <span>By {{ .Site.Params.Author }}</span>
+          {{ if not .Params.HideDate }}
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>{{ .PublishDate.Format "2006-01-02" }}</span>
+          {{ end }}
+        </div>
+        
+        <!-- トップの情報-->
+        <img src="https://hikaku.imgix.net/hikaku/{{.Params.page_id}}/{{.Params.page_id}}imgtop.jpg?w=640&h=640&auto=format&fit=clipp"class="img-fluid w-100 mb-4" alt="{{ .Title | markdownify }}">  
+        {{ if .Params.page_imgtoptext }}
+        <a class="small" href="{{.Params.page_imgtopurl}}">{{.Params.page_imgtoptext}}</a>
+        {{end}}
+
+        <br><br>
+        <p>{{.Params.page_text}}</p>
+
+        <!-- Content -->
+        {{ if .Content }}      
+        <div class="content mb-5">
+          {{ .Content }}
+        </div>
+        {{end}}
+
+
+        {{ if .Params.page_youtube }}
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+          <iframe src="https://www.youtube.com/embed/{{.Params.page_youtube}}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+        </div>
+        {{end}}
+        <br>
+        <br>
+        <br>
+        {{ if .Params.page_img1subtitle }}
+        <hr>
+        <h4>詳細</h4>
+        <hr>
+        <!-- コンテンツ1-->
+        <h3>{{.Params.page_img1subtitle}}</h3>
+
+        <img src="https://hikaku.imgix.net/hikaku/{{.Params.page_id}}/{{.Params.page_id}}img1.jpg?w=640&h=640&auto=format&fit=clipp"class="img-fluid w-100 mb-4" alt="{{ .Title | markdownify }}">  
+        {{ if .Params.page_img1urltext }}  
+        <a class="small" href="{{.Params.page_img1url}}">{{.Params.page_img1urltext}}</a>
+        {{end}}
+        <br>
+        <br>
+        <p>{{.Params.page_img1text}}</p>
+        <hr>
+        {{end}}
+
+        <!-- コンテンツ2-->
+        {{ if .Params.page_img2subtitle }}
+        <h3>{{.Params.page_img2subtitle}}</h3>
+
+        <img src="https://hikaku.imgix.net/hikaku/{{.Params.page_id}}/{{.Params.page_id}}img2.jpg?w=640&h=640&auto=format&fit=clipp"class="img-fluid w-100 mb-4" alt="{{ .Title | markdownify }}">  
+        {{ if .Params.page_img2urltext }}  
+        <a class="small" href="{{.Params.page_img2url}}">{{.Params.page_img2urltext}}</a>
+        {{end}}
+        <br>
+        <br>
+        <p>{{.Params.page_img2text}}</p>
+        <hr>
+        {{end}}
+
+        <!-- コンテンツ3-->
+        {{ if .Params.page_img3subtitle }}
+        <h3>{{.Params.page_img3subtitle}}</h3>
+
+        <img src="https://hikaku.imgix.net/hikaku/{{.Params.page_id}}/{{.Params.page_id}}img3.jpg?w=640&h=640&auto=format&fit=clipp"class="img-fluid w-100 mb-4" alt="{{ .Title | markdownify }}">  
+        {{ if .Params.page_img3urltext }}  
+        <a class="small" href="{{.Params.page_img3url}}">{{.Params.page_img3urltext}}</a>
+        {{end}}
+        <br>
+        <br>
+        <p>{{.Params.page_img3text}}</p>
+        {{end}}
+
+        <!-- 店舗情報 -->
+        {{ if .Params.customer_name }}
+        <hr>
+        <h4>連絡先情報</h4>
+        <hr>
+
+        <div class="col text-left">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>屋号</th>
+                <td scope="col">{{.Params.customer_name}}</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">住所</th>
+                <td>{{.Params.address}}</td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <th>アクセス</th>
+                <td scope="col">{{.Params.access}}</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">電話番号</th>
+                <td><a href="tel:{{.Params.tel}}">{{.Params.tel}}</a></td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <th>定休日</th>
+                <td scope="col">{{.Params.holiday}}</td>
+              </tr>
+            </thead>         
+            <tbody>
+              <tr>
+                <th scope="row">受付時間</th>
+                <td>{{.Params.time}} </td>
+              </tr>
+            </tbody>          
+          </table>
+          {{ if .Params.place_id }}      
+          <div id="map">
+            <iframe width="100%" height="350"  frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDJJaUE8iJAdEseGBvTQ8E9QF0Hm1Jml14&q=place_id:{{.Params.place_id}}&zoom=15"></iframe>
+          </div>
+          {{end}}
+          
+          {{ if .Params.mapurl }}      
+          <div id="map">
+              <iframe src="{{.Params.mapurl}}" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>            
+          </div>
+          {{end}}
+
+        </div>
+        {{end}}
+
+        {{ if .Params.related_text1 }}  
+        <br>
+        <br>
+        <hr>
+        <h3>関連記事</h3>
+        <hr>
+
+        <!-- 関連サイト1-->
+        {{ if .Params.related_text1 }}  
+        <h6><a  href="{{.Params.related_url1}}">{{.Params.related_text1}}</a></h6>
+        {{end}}
+        <br>
+
+        <!-- 関連サイト2-->
+        {{ if .Params.related_text2 }}  
+        <h6><a  href="{{.Params.related_url2}}">{{.Params.related_text2}}</a></h6>
+        {{end}}
+        <br>
+
+        <!-- 関連サイト3-->
+        {{ if .Params.related_text3 }}  
+        <h6><a  href="{{.Params.related_url3}}">{{.Params.related_text3}}</a></h6>
+        {{end}}
+        <br>
+        
+      {{end}}
+
+      </div>
+
+        
+        <!-- comments -->
+        {{ template "_internal/disqus.html" . }}
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

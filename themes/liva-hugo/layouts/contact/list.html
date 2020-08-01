@@ -1,0 +1,70 @@
+{{ define "main" }}
+
+<section class="section-sm pb-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <h2>{{ .Title | markdownify }}</h2>
+        <div class="content mb-4">
+          {{ .Content }}
+        </div>
+        <div class="row">
+          <div class="col-lg-4 small-post-border">
+            <i class="ti-mobile h1 text-primary"></i>
+            <h5 class="font-weight-light my-3">Phone</h5>
+            {{ .Site.Params.mobile }}
+          </div>
+          <div class="col-lg-4 small-post-border">
+            <i class="ti-email h1 text-primary"></i>
+            <h5 class="font-weight-light my-3">Email</h5>
+            {{ .Site.Params.email }}
+          </div>
+          <div class="col-lg-4 small-post-border">
+            <i class="ti-location-pin h1 text-primary"></i>
+            <h5 class="font-weight-light my-3">Location</h5>
+            {{ .Site.Params.location | markdownify }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section-sm pb-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <h2 class="mb-4">お問い合わせフォーム</h2>
+        <!-- <form action="#" method="POST" class="row"> -->
+          <form action="https://tokuyama.wufoo.com/forms/k7x7ibb1mffick/" enctype="multipart/form-data" id="postForm" class="row" method="post" accept-charset="utf-8">
+            <input name="Field1" id="Field1" value="hikaku.io" class="form-control mb-2" type="hidden" required="">
+
+            <div class="col-12">
+            <input type="text" class="form-control mb-4" id="Field2" name="Field2" placeholder="お名前">
+          </div>
+
+          <div class="col-12">
+            <input type="tel" class="form-control mb-4" id="Field3" name="Field3" placeholder="電話番号">
+          </div>
+
+
+          <div class="col-12">
+            <input type="email" class="form-control mb-4" id="Field4" name="Field4" placeholder="メールアドレス">
+          </div>
+
+
+          <div class="col-12">
+            <textarea name="Field5" id="Field5" class="form-control mb-4" placeholder="お問い合わせ内容"></textarea>
+          </div>
+          <div class="col-12">
+            <input id="idstamp" name="idstamp" type="hidden" value="w4Ev3ou9DIgKH6AiNCvmW4tnbla00x3oUCwQwqcEOQo=">
+            <button type="submit" id="saveForm" name="saveForm" class="btn btn-primary">送信する</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

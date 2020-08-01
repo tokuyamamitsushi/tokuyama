@@ -1,0 +1,128 @@
+######################## default configuration ####################
+baseURL = "https://www.tokuyama.io/"
+languageCode = "ja"
+title = "楽楽販売の開発エンジニアを育成中｜開発で役立つ技術を配信"
+theme = "liva-hugo"
+summaryLength = "10"
+paginate = 6
+disqusShortname = ""
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+############################# Plugins ##############################
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  URL = "plugins/themify-icons/themify-icons.css"
+  [[params.plugins.css]]
+  URL = "plugins/venobox/venobox.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/venobox/venobox.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/fuse.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/mark.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/search.js"
+
+  
+############################## navigation ###############################
+[menu]
+  
+  # main menu
+  [[menu.main]]
+  name = "運営者"
+  URL = "about"
+  weight = 1
+  
+  [[menu.main]]
+  name = "ブログ"
+  URL = "blog"
+  weight = 2
+  
+  [[menu.main]]
+  name = "お問い合わせ"
+  URL = "contact"
+  weight = 3
+
+  # footer menu
+  [[menu.footer]]
+  name = "運営者"
+  URL = "about"
+  weight = 1
+  
+  [[menu.footer]]
+  name = "ブログ"
+  URL = "blog"
+  weight = 2
+  
+  [[menu.footer]]
+  name = "お問い合わせ"
+  URL = "contact"
+  weight = 3
+
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+home = "ホーム"
+# Meta data
+description = "楽楽販売、楽楽精算の情報を中心に、開発で使用した役立つツールやサービス、具体的な開発方法を配信しています"
+author = "toku"
+# Google Analitycs
+googleAnalitycsID = ""
+# Contact Information
+  mobile = ""
+  email = ""
+location = ""
+# copyright
+copyright = "| copyright &copy; 2020 [tokuyama](https://www.tokuyama.io/) All Rights Reserved |"
+
+  # Preloader
+  [params.preloader]
+  enable = true
+  preloader = "" # use .png , .svg or .gif format
+
+  # search
+  [params.search]
+  enable = true
+
+############################# social site ########################
+[[params.social]]
+title = "facebook"
+icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
+link = "https://www.facebook.com/tokuyamamitsushi"
+
+[[params.social]]
+title = "twitter"
+icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
+link = "https://twitter.com/tokuyama"
+
+[[params.social]]
+title = "instagram"
+icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
+link = "https://www.instagram.com/tokulog/"
+
+# [[params.social]]
+# title = "github"
+# icon = "ti-github" # themify icon : https://themify.me/themify-icons
+# link = "#"
+
+# [[params.social]]
+# title = "linkedin"
+# icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
+# link = "#"

@@ -1,0 +1,14 @@
+enable : true
+gallery:
+  - image : "https://hikaku.imgix.net/tabiai/common/gallery1.jpg"
+  - image : "https://hikaku.imgix.net/tabiai/common/gallery2.jpg"
+  - image : "https://hikaku.imgix.net/tabiai/common/gallery3.jpg"
+  - image : "https://hikaku.imgix.net/tabiai/common/gallery4.jpg"
+  - image : "https://hikaku.imgix.net/tabiai/common/gallery5.jpg"
+  - image : "https://hikaku.imgix.net/tabiai/common/gallery6.jpg"
+  - image : "https://hikaku.imgix.net/tabiai/common/gallery7.jpg"
+  - image : "https://hikaku.imgix.net/tabiai/common/gallery8.jpg"
+  - image : "https://hikaku.imgix.net/tabiai/common/gallery9.jpg"
+  - image : "https://hikaku.imgix.net/tabiai/common/gallery10.jpg"
+  - image : "https://hikaku.imgix.net/tabiai/common/gallery11.jpg"
+  - image : "https://hikaku.imgix.net/tabiai/common/gallery12.jpg"

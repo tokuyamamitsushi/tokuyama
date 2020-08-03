@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ブログ on 楽楽販売の開発エンジニアを育成中｜開発で役立つ技術を配信</title>
+    <link>https://www.tokuyama.io/tags/%E3%83%96%E3%83%AD%E3%82%B0/</link>
+    <description>Recent content in ブログ on 楽楽販売の開発エンジニアを育成中｜開発で役立つ技術を配信</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.tokuyama.io/tags/%E3%83%96%E3%83%AD%E3%82%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ブログをかく時のライディングの基礎とポイント</title>
+      <link>https://www.tokuyama.io/blog/20200802-003/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.tokuyama.io/blog/20200802-003/</guid>
+      <description>もくじ １．文章構成術 ２．ライティングテクニック ３．文章の装飾  １．文章構成術 ブログを書く時の3要素（基礎） ・冒頭文章
+・タイトルと見出し
+・基本はPREP法（結論ー理由ー例文ー結論）</description>
+    </item>
+    
+  </channel>
+</rss>

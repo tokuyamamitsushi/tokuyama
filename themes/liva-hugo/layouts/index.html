@@ -89,7 +89,7 @@
                   <span>By {{ .Site.Params.Author }}</span>
                   {{ if not .Params.HideDate }}
                   <span class="border-bottom border-primary px-2 mx-1"></span>
-                  <span>{{ .PublishDate.Format "2020-07-02" }}</span>
+                  <span>{{ .PublishDate.Format "2006-01-02" }}</span>
                   {{ end }}
                 </div>
                 <p class="card-text">{{ .Params.page_text }}</p>

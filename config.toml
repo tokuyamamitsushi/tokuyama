@@ -82,7 +82,7 @@ logo = "images/logo.png"
 home = "ホーム"
 # Meta data
 description = "楽楽販売、楽楽精算の情報を中心に、開発で使用した役立つツールやサービス、具体的な開発方法を配信しています"
-author = "toku"
+author = "tokuyama"
 # Google Analitycs
 googleAnalitycsID = ""
 # Contact Information

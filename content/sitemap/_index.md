@@ -17,17 +17,17 @@ type : "other"
 
 ### カテゴリー一覧
 
-[トップページ](https://www.tabiai.net/)
+[トップページ](https://www.tokuyama.io/)
 
-[ブログ](https://www.tabiai.net/blog/)
+[ブログ](https://www.tokuyama.io/blog/)
 
 
 ### はじめに読んでもらいたいページ
 
-[運営者について](https://www.tabiai.net/about/)
+[運営者について](https://www.tokuyama.io/about/)
 
 ### お問い合わせはこちらから
 
-[お問い合わせ](https://www.tabiai.net/contact/)
+[お問い合わせ](https://www.tokuyama.io/contact/)
 
 
